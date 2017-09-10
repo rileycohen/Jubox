@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BFE7E75C1F649B5B0045D669"
+               BlueprintIdentifier = "BFD3638B1F65916300F059F0"
                BuildableName = "dynamicList.app"
                BlueprintName = "dynamicList"
                ReferencedContainer = "container:dynamicList.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFE7E75C1F649B5B0045D669"
+            BlueprintIdentifier = "BFD3638B1F65916300F059F0"
             BuildableName = "dynamicList.app"
             BlueprintName = "dynamicList"
             ReferencedContainer = "container:dynamicList.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFE7E75C1F649B5B0045D669"
+            BlueprintIdentifier = "BFD3638B1F65916300F059F0"
             BuildableName = "dynamicList.app"
             BlueprintName = "dynamicList"
             ReferencedContainer = "container:dynamicList.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFE7E75C1F649B5B0045D669"
+            BlueprintIdentifier = "BFD3638B1F65916300F059F0"
             BuildableName = "dynamicList.app"
             BlueprintName = "dynamicList"
             ReferencedContainer = "container:dynamicList.xcodeproj">
