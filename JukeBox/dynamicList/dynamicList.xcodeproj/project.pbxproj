@@ -15,6 +15,7 @@
 		BFD3639A1F65916300F059F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD363991F65916300F059F0 /* Assets.xcassets */; };
 		BFD3639D1F65916300F059F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD3639B1F65916300F059F0 /* LaunchScreen.storyboard */; };
 		BFD363A51F65951500F059F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFD363A41F65951500F059F0 /* GoogleService-Info.plist */; };
+		BFD363A71F65987900F059F0 /* DynamicListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD363A61F65987900F059F0 /* DynamicListDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BFD3639C1F65916300F059F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFD3639E1F65916300F059F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFD363A41F65951500F059F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFD363A61F65987900F059F0 /* DynamicListDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicListDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				BFD3639E1F65916300F059F0 /* Info.plist */,
 				BFD363961F65916300F059F0 /* dynamicList.xcdatamodeld */,
 				BFD363A41F65951500F059F0 /* GoogleService-Info.plist */,
+				BFD363A61F65987900F059F0 /* DynamicListDelegate.swift */,
 			);
 			path = dynamicList;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD363921F65916300F059F0 /* ViewController.swift in Sources */,
+				BFD363A71F65987900F059F0 /* DynamicListDelegate.swift in Sources */,
 				BFD363901F65916300F059F0 /* AppDelegate.swift in Sources */,
 				BFD363981F65916300F059F0 /* dynamicList.xcdatamodeld in Sources */,
 			);
@@ -392,6 +396,7 @@
 				BFD363A31F65916300F059F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
