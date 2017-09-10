@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>870553424626-evvj19o2hif2r2ll7a26h2p33hctva1p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.870553424626-evvj19o2hif2r2ll7a26h2p33hctva1p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAqqALm68D-zJQF8tqnahA56SLb4WHVJLY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>870553424626</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kk.dynamicList</string>
+	<key>PROJECT_ID</key>
+	<string>jukeboxplayground</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jukeboxplayground.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:870553424626:ios:00ede0ef5ce7cb35</string>
+	<key>DATABASE_URL</key>
+	<string>https://jukeboxplayground.firebaseio.com</string>
+</dict>
+</plist>

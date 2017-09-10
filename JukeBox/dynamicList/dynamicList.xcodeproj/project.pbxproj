@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EC3C072F9194C2BA08774A3 /* Pods_dynamicList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE86328A2A1533AD3602BD3 /* Pods_dynamicList.framework */; };
 		BFD363901F65916300F059F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3638F1F65916300F059F0 /* AppDelegate.swift */; };
 		BFD363921F65916300F059F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD363911F65916300F059F0 /* ViewController.swift */; };
 		BFD363951F65916300F059F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD363931F65916300F059F0 /* Main.storyboard */; };
 		BFD363981F65916300F059F0 /* dynamicList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFD363961F65916300F059F0 /* dynamicList.xcdatamodeld */; };
 		BFD3639A1F65916300F059F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD363991F65916300F059F0 /* Assets.xcassets */; };
 		BFD3639D1F65916300F059F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD3639B1F65916300F059F0 /* LaunchScreen.storyboard */; };
+		BFD363A51F65951500F059F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFD363A41F65951500F059F0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A9E26331FE9B8DFA446681F /* Pods-dynamicList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dynamicList.release.xcconfig"; path = "Pods/Target Support Files/Pods-dynamicList/Pods-dynamicList.release.xcconfig"; sourceTree = "<group>"; };
+		5DE86328A2A1533AD3602BD3 /* Pods_dynamicList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dynamicList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D7B0ED316B946293DD200C /* Pods-dynamicList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dynamicList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dynamicList/Pods-dynamicList.debug.xcconfig"; sourceTree = "<group>"; };
 		BFD3638C1F65916300F059F0 /* dynamicList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dynamicList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD3638F1F65916300F059F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFD363911F65916300F059F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		BFD363991F65916300F059F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD3639C1F65916300F059F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFD3639E1F65916300F059F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD363A41F65951500F059F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC3C072F9194C2BA08774A3 /* Pods_dynamicList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				BFD3638E1F65916300F059F0 /* dynamicList */,
 				BFD3638D1F65916300F059F0 /* Products */,
+				CCD08D2B402604FD16B63027 /* Pods */,
+				D6F716474BA5143705FDB200 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				BFD3639B1F65916300F059F0 /* LaunchScreen.storyboard */,
 				BFD3639E1F65916300F059F0 /* Info.plist */,
 				BFD363961F65916300F059F0 /* dynamicList.xcdatamodeld */,
+				BFD363A41F65951500F059F0 /* GoogleService-Info.plist */,
 			);
 			path = dynamicList;
+			sourceTree = "<group>";
+		};
+		CCD08D2B402604FD16B63027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71D7B0ED316B946293DD200C /* Pods-dynamicList.debug.xcconfig */,
+				3A9E26331FE9B8DFA446681F /* Pods-dynamicList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F716474BA5143705FDB200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE86328A2A1533AD3602BD3 /* Pods_dynamicList.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD363A11F65916300F059F0 /* Build configuration list for PBXNativeTarget "dynamicList" */;
 			buildPhases = (
+				06459048F7617DA3C0EB0AD3 /* [CP] Check Pods Manifest.lock */,
 				BFD363881F65916300F059F0 /* Sources */,
 				BFD363891F65916300F059F0 /* Frameworks */,
 				BFD3638A1F65916300F059F0 /* Resources */,
+				54081414B7089CC1C0A42DF7 /* [CP] Embed Pods Frameworks */,
+				E204F4794075A00F9357D75A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,10 +159,65 @@
 				BFD3639D1F65916300F059F0 /* LaunchScreen.storyboard in Resources */,
 				BFD3639A1F65916300F059F0 /* Assets.xcassets in Resources */,
 				BFD363951F65916300F059F0 /* Main.storyboard in Resources */,
+				BFD363A51F65951500F059F0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06459048F7617DA3C0EB0AD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dynamicList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54081414B7089CC1C0A42DF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dynamicList/Pods-dynamicList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dynamicList/Pods-dynamicList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E204F4794075A00F9357D75A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dynamicList/Pods-dynamicList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFD363881F65916300F059F0 /* Sources */ = {
@@ -264,6 +349,7 @@
 		};
 		BFD363A21F65916300F059F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D7B0ED316B946293DD200C /* Pods-dynamicList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = dynamicList/Info.plist;
@@ -276,6 +362,7 @@
 		};
 		BFD363A31F65916300F059F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9E26331FE9B8DFA446681F /* Pods-dynamicList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = dynamicList/Info.plist;
